@@ -110,3 +110,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # ZSH Syntax Highlighting - must be at the end of .zshrc!
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Launch pfetch when opening new terminal
+pfetch
