@@ -17,8 +17,8 @@ return {
         priority = 1000,
     },
 
-    "3rfaan/alpha-nvim-everforest", -- Startup screen
-    "nvim-lualine/lualine.nvim",    -- Status line
+    "goolord/alpha-nvim",        -- Startup screen
+    "nvim-lualine/lualine.nvim", -- Status line
 
     -------- Neovim Tools
     "mbbill/undotree",       -- Undo tree
