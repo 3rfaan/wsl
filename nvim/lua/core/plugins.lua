@@ -59,12 +59,6 @@ return {
     "williamboman/mason-lspconfig.nvim", -- lspconfig integration
     "neovim/nvim-lspconfig",             -- LSP configuration
 
-    ------- Debugging
-    {
-        "rcarriga/nvim-dap-ui", -- Debugger
-        dependencies = { "mfussenegger/nvim-dap" }
-    },
-
     ------- Editing Tools
     "windwp/nvim-autopairs",               -- Auto closing brackets, parenthesis etc.
     "alvan/vim-closetag",                  -- Auto closing HTML tags

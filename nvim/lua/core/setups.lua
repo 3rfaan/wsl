@@ -12,11 +12,8 @@
 -- NvimTree
 require("nvim-tree").setup()
 
--- DAP UI
-require("dapui").setup()
-
 -- Alpha startup screen / dashboard
-require("alpha").setup(require("alpha.themes.dashboard").config)
+require("alpha").setup(require("alpha.themes.startify").config)
 require("alpha.themes.dashboard").section.footer.val = require("alpha.fortune")() -- Quotes
 
 -- Lualine status bar
